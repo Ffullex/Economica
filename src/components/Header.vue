@@ -1,5 +1,5 @@
 <template>
-<div id="header">To-Do list</div>
+<div id="header">Кредитный калькулятор</div>
 </template>
 
 <script>

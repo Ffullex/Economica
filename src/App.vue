@@ -5,8 +5,6 @@
         <Header/>
         <hr/>
         <credit-calc />
-        <hr />
-        <ToDo />
         <hr/>
       </div>
     </div>
@@ -14,13 +12,11 @@
 </template>
 
 <script>
-import ToDo from './components/ToDo';
 import Header from "./components/Header";
 import CreditCalc from "./components/CreditCalc";
 export default {
   name: 'App',
   components: {
-    ToDo,
     Header,
     CreditCalc,
   },
@@ -44,21 +40,18 @@ body {
   background-color: aliceblue;
 }
 .outer {
-  background-size: cover;
+  margin: auto;
   height: 100%;
-  box-sizing: border-box;
   display: flex;
   background-color: aliceblue;
-  align-items: center;
  }
 .block {
   display: block;
-  text-align: start;
   background-color: aliceblue;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
-  margin: 5% 0 0 30%;
+  margin: auto;
   height: 100%;
-  border-radius: 5%;
+  border-radius: 15px;
 }
 
 .inner {
